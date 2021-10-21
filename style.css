@@ -1,0 +1,149 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*.controls{
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform:translateX(50%);
+    background-color: rgba(0,0,0,0.5);
+}*/
+
+.bg-fondo{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/img/bg_fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.sombreado{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/img/bg_nocuelgues.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.uiSup{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    z-index: 3;
+}
+
+.btnIni{
+    position: absolute;
+    bottom: 130px;
+    left: 45px;
+    z-index: 4;
+}
+
+.infUI{
+    position: absolute;
+    bottom: 130px;
+    left: 45px;
+    z-index: 4;
+}
+
+.logoCosmo{
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    z-index: 4;
+}
+
+.logoNC{
+    position: absolute;
+    bottom: 15px;
+    left: 200px;
+    z-index: 4;
+}
+
+#experienciaAR{
+    display: none;
+}
+
+.cuadrosDialogo_2{
+    display: none;
+}
+
+.cuadrosDialogo_3{
+    display: none;
+}
+
+.obtener{
+    display: none;
+}
+
+.goldticket{
+    display: none;
+}
+
+.controls{
+    position: fixed;
+    bottom: 35px;
+    left: 60px;
+}
+
+.dialogos{
+    position: fixed;
+    top: 35px;
+    left: 20px;
+}
+
+.ticketregalo{
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+}
+
+a{
+    position: absolute;
+    bottom: 200px;
+    left: 25px;
+    z-index: 6;
+}
+.iframe{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.iframe iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Medias Qwery*/
+@media (min-width: 1400px) {
+    #menuPrincipal{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    #menuPrincipal{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #menuPrincipal{
+        display: none;
+    }
+}
